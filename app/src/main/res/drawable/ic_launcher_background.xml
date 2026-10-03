@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#07110D"
+        android:pathData="M0,0 H108 V108 H0 Z" />
+
+    <!-- Subtle radar depth remains visible without competing with the foreground. -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,10 A44,44 0,1 1,54,98 A44,44 0,1 1,54,10"
+        android:strokeColor="#163F31"
+        android:strokeWidth="0.7" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,29 A25,25 0,1 1,54,79 A25,25 0,1 1,54,29"
+        android:strokeColor="#123327"
+        android:strokeWidth="0.6" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M8,54 H100 M54,8 V100"
+        android:strokeColor="#102D23"
+        android:strokeWidth="0.5" />
+</vector>
