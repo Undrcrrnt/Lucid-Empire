@@ -13,32 +13,6 @@
   <sub>Replaces Termux + a dozen single-purpose scanner apps with one native, offline, permission-scoped toolkit.</sub>
 </p>
 
-<p align="center">
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.4.10-0D1117?style=for-the-badge&logo=kotlin&logoColor=00E676&labelColor=0D1117" />
-  <img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack%20Compose-0D1117?style=for-the-badge&logo=jetpackcompose&logoColor=00E676&labelColor=0D1117" />
-  <img alt="Android 8.0+" src="https://img.shields.io/badge/Android%208.0%2B-0D1117?style=for-the-badge&logo=android&logoColor=00E676&labelColor=0D1117" />
-  <img alt="Material 3" src="https://img.shields.io/badge/Material%203-0D1117?style=for-the-badge&logo=materialdesign&logoColor=00E676&labelColor=0D1117" />
-  <a href="COPYING"><img alt="License: GPL-2.0" src="https://img.shields.io/badge/License-GPL--2.0-00C853?style=for-the-badge&labelColor=0D1117" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Undrcrrnt/Lucid-Empire/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/Undrcrrnt/Lucid-Empire?style=flat-square&color=00C853&labelColor=0D1117&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/Undrcrrnt/Lucid-Empire/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Undrcrrnt/Lucid-Empire/ci.yml?branch=main&style=flat-square&color=00C853&labelColor=0D1117&logo=githubactions&logoColor=white&label=CI" /></a>
-  <a href="https://github.com/Undrcrrnt/Lucid-Empire/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Undrcrrnt/Lucid-Empire?style=flat-square&color=00C853&labelColor=0D1117&logo=github" /></a>
-  <a href="https://github.com/Undrcrrnt/Lucid-Empire/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/Undrcrrnt/Lucid-Empire?style=flat-square&color=00C853&labelColor=0D1117&logo=github" /></a>
-  <a href="https://github.com/Undrcrrnt/Lucid-Empire/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Undrcrrnt/Lucid-Empire?style=flat-square&color=00C853&labelColor=0D1117" /></a>
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/Undrcrrnt/Lucid-Empire?style=flat-square&color=00C853&labelColor=0D1117" />
-  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/Undrcrrnt/Lucid-Empire?style=flat-square&color=00C853&labelColor=0D1117" />
-  <img alt="Tools" src="https://img.shields.io/badge/tools-29-00C853?style=flat-square&labelColor=0D1117" />
-</p>
-
-<p align="center">
-  <a href="#-features">🧰 Features</a> &nbsp;·&nbsp;
-  <a href="docs/TOOLS.md">📖 Full Tool Guide</a> &nbsp;·&nbsp;
-  <a href="#-screenshots">📸 Screenshots</a> &nbsp;·&nbsp;
-  <a href="#-faq">❓ FAQ</a>
-</p>
-
 ---
 
 ## ⚡ At a Glance
