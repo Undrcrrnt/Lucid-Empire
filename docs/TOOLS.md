@@ -24,6 +24,10 @@ For the project overview, screenshots, and setup, see the [main README](../READM
 4. Review the channel chart to find the least congested channel for your router
 5. Scan auto-stops after 30 seconds
 
+The phone radio is the default. On this screen or in Settings, choose T2U Plus or PAU0A to listen for beacons on that adapter instead. The adapter does not join a network. Deauth Detector uses the same adapter session.
+
+Open a network and tap **Locate** to follow that one access point. See [Locate](#locate).
+
 **What you see per network:**
 - SSID (network name) and BSSID (hardware address)
 - Signal strength in dBm and as a percentage
@@ -47,6 +51,7 @@ For the project overview, screenshots, and setup, see the [main README](../READM
 4. Tap a device row to open the **GATT Explorer** for deep inspection
 5. Bookmark devices you want to track
 6. Scan auto-stops after 30 seconds
+7. Tap a device, then tap **Locate** to follow that one device by signal strength. See [Locate](#locate).
 
 **What you see per device:**
 - Name and MAC address
@@ -147,6 +152,41 @@ For the project overview, screenshots, and setup, see the [main README](../READM
 - Discovered peers: name, MAC, device type
 - Group info: network name, passphrase, group owner, client list
 - File transfer progress
+
+---
+
+#### Locate
+
+**What it solves:** A scan tells you a device or access point is nearby. Locate tells you whether you are walking toward that one target.
+
+It follows a single Wi-Fi access point or a single Bluetooth Low Energy device. The large number is signal strength. The word above it is a loudness cue: **Listening**, **Closer**, **Further**, **About the same**, **Very Close**, **Quiet**, or **Gone**. A change of about 3 dB counts as closer or further. The reading is loudness. It does not give a compass heading or a distance in meters. Your body and walls change it, so walk a few steps, then hold still.
+
+**Wi-Fi**
+
+1. Open **WiFi Analyzer** and scan
+2. Open one network and tap **Locate**
+3. You can also start from a Wi-Fi row on device detail, or from **Locate** on a sweep finding that has a BSSID
+
+The phone radio is the default. It compares one scan of that access point with the previous scan, so hold still until the next sweep finishes. Android requires location permission before the phone can scan Wi-Fi. The number is dBm: closer to zero is stronger. About −45 dBm or stronger reads **Very Close**, which usually means the same room.
+
+On the Locate screen you can switch to a T2U Plus or PAU0A. That adapter listens for beacons and does not join the network. It compares the last couple of seconds with a few seconds earlier, so the cue updates while you move. Its number is the adapter’s signal index, not dBm: closer to 0 is weaker, and closer to 100 is stronger. If the cue goes **Quiet**, the access point may be off, or the radio has not reached its channel yet.
+
+**Bluetooth**
+
+1. Open **BLE Scanner** and scan
+2. Tap the device to open its detail
+3. Tap **Locate**
+4. A sweep finding for a Bluetooth device has the same button
+
+Locate runs a live Bluetooth scan and keeps only the address you picked. It compares advertisements from the last couple of seconds with advertisements from a few seconds earlier. **Listening** means it does not have enough packets yet. **Quiet** means nothing has arrived for several seconds. **Gone** means that address left the live set. A device that randomizes its Bluetooth address often disappears in the middle of a locate. **Very Close** is about −45 dBm or stronger: usually in hand, in a pocket, or in the same bag.
+
+**On the screen**
+
+- **Beep** ticks faster as the signal gets stronger, and stays silent when the cue is **Quiet** or **Gone**
+- **Vibrate** adds a tick with each beep
+- The trace under the meter is the strength during this locate, and the line under the number is the loudest reading so far
+- **Reset this locate** clears the comparison and starts the cue over
+- **Stop** ends the scan. **Locate again** starts it
 
 ---
 

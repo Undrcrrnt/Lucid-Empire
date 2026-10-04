@@ -71,6 +71,12 @@ Every tool solves a specific, real problem. Full step-by-step docs live in the *
 | **Wi-Fi Direct** | Peer discovery, group formation, direct P2P file transfer |
 </details>
 
+**Locate** follows one Wi-Fi access point or one Bluetooth device while you walk. The cue says whether that target is getting louder or quieter. It does not give a compass heading or a distance in meters.
+
+On Wi-Fi, open a network in WiFi Analyzer and tap **Locate**. The phone radio compares one scan with the next, so hold still between scans. A T2U Plus or PAU0A compares beacons over a few seconds and does not join the network. The phone shows strength in dBm, where closer to zero is stronger. The adapter shows its own signal index, where a higher number, toward 100, is stronger.
+
+On Bluetooth, open a BLE device and tap **Locate**, or tap **Locate** on a sweep finding. The screen compares the last couple of seconds of advertisements with a few seconds earlier. A device that randomizes its address can drop out while you are following it. Beeps tick faster as the signal gets stronger.
+
 <details>
 <summary><b>📻 RF & Signals</b></summary>
 
